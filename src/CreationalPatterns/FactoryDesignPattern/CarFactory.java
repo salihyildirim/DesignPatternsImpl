@@ -35,6 +35,7 @@ public class CarFactory { // nesne üretiminin gerceklesecegi sinif.
 //    }
 
     //AbsractFactory with constructor.
+    //Bu sayede devamlı if eklemek yerine kodu hiç değiştirmezsin.
     public static ICar createAbstractCar(Class<? extends ICar> carClass, String color, double price) {
         try {
             // Get the constructor with the required parameters
