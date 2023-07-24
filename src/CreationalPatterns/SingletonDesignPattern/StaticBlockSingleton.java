@@ -6,7 +6,8 @@ public class StaticBlockSingleton {
     private StaticBlockSingleton(){}
 
     // static block initialization for exception handling
-    static {
+    static { // static blok sınıf yüklendiğinde yalnızca 1 kere çalışır.
+        //yani burada singleton nesnesi yalnızca bir kez oluşturulur ve aynı nesne kullanılır
         try {
             instance = new StaticBlockSingleton();
         } catch (Exception e) {
