@@ -6,5 +6,13 @@ public class Main {
 
         EagerInitializedSingleton eagerInitializedSingleton = EagerInitializedSingleton.getInstance();
 
+        EnumSingleton enumSingleton = EnumSingleton.INSTANCE;
+
+        enumSingleton.setData(45);
+
+        int data = enumSingleton.getData();
+        System.out.println(data);
+        String orderStatusMessage = OrderStatus.Kuryede.getMessage();
+
     }
 }
