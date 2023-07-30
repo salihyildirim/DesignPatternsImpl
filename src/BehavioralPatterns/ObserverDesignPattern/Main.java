@@ -1,5 +1,9 @@
 package BehavioralPatterns.ObserverDesignPattern;
 
+import BehavioralPatterns.ObserverDesignPattern.ConcreteObserver.BinaryObserver;
+import BehavioralPatterns.ObserverDesignPattern.ConcreteObserver.HexaObserver;
+import BehavioralPatterns.ObserverDesignPattern.ConcreteObserver.OctalObserver;
+
 public class Main {
     public static void main(String[] args) {
         Subject subject = new Subject();

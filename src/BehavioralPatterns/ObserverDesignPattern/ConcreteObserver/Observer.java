@@ -1,4 +1,6 @@
-package BehavioralPatterns.ObserverDesignPattern;
+package BehavioralPatterns.ObserverDesignPattern.ConcreteObserver;
+
+import BehavioralPatterns.ObserverDesignPattern.Subject;
 
 public abstract class Observer {
     //Alt sınıflar, gözlemledikleri konuyu takip etmek için subject alanını kullanır.

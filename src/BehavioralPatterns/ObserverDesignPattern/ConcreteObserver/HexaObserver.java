@@ -1,6 +1,8 @@
-package BehavioralPatterns.ObserverDesignPattern;
+package BehavioralPatterns.ObserverDesignPattern.ConcreteObserver;
 
-public class HexaObserver extends Observer{
+import BehavioralPatterns.ObserverDesignPattern.Subject;
+
+public class HexaObserver extends Observer {
     public HexaObserver(Subject subject){
         this.subject = subject;
         this.subject.attach(this);

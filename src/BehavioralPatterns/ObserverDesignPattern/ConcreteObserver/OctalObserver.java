@@ -1,6 +1,8 @@
-package BehavioralPatterns.ObserverDesignPattern;
+package BehavioralPatterns.ObserverDesignPattern.ConcreteObserver;
 
-public class OctalObserver extends Observer{
+import BehavioralPatterns.ObserverDesignPattern.Subject;
+
+public class OctalObserver extends Observer {
 
     public OctalObserver(Subject subject){
         this.subject = subject;

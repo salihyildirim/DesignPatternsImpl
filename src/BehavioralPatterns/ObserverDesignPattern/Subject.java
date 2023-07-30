@@ -1,5 +1,7 @@
 package BehavioralPatterns.ObserverDesignPattern;
 
+import BehavioralPatterns.ObserverDesignPattern.ConcreteObserver.Observer;
+
 import java.util.ArrayList;
 import java.util.List;
 

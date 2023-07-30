@@ -1,6 +1,8 @@
-package BehavioralPatterns.ObserverDesignPattern;
+package BehavioralPatterns.ObserverDesignPattern.ConcreteObserver;
 
-public class BinaryObserver extends Observer{
+import BehavioralPatterns.ObserverDesignPattern.Subject;
+
+public class BinaryObserver extends Observer {
     public BinaryObserver(Subject subject){
         this.subject = subject;
         this.subject.attach(this);
