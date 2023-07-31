@@ -11,7 +11,7 @@ public class CarFactory { // nesne üretiminin gerceklesecegi sinif.
 
         if (mark.equals("BMW")) {
             car = new BMW(color, price);
-        } else if (mark.equals("Aud,")) {
+        } else if (mark.equals("Audi,")) {
             car = new Audi(color, price);
         } else {
             throw new RuntimeException(mark + "Markasının üretimi desteklenmemektedir.");

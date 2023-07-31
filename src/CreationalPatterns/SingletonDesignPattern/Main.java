@@ -8,6 +8,7 @@ public class Main {
 
         EnumSingleton enumSingleton = EnumSingleton.INSTANCE;
 
+
         enumSingleton.setData(45);
 
         int data = enumSingleton.getData();
